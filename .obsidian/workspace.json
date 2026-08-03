@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-ROOT/数据科学全流程自动化.md",
+                "file": "1-LLM Agent/反思机制（Reﬂection mechanisms）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数据科学全流程自动化"
+              "title": "反思机制（Reﬂection mechanisms）"
             }
           }
         ]
@@ -190,5 +190,8 @@
     }
   },
   "active": "451581cc2df15808",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "1-LLM Agent/0-LLM Agent.md",
+    "0-ROOT/数据科学全流程自动化.md"
+  ]
 }
