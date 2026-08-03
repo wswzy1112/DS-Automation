@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-ROOT/数据科学全流程自动化.md",
+                "file": "1-LLM Agent/反思机制（Reﬂection mechanisms）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,9 +118,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-ROOT/数据科学全流程自动化.md",
+                "file": "1-LLM Agent/反思机制（Reﬂection mechanisms）.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
               "title": "出链"
@@ -170,12 +170,12 @@
               "title": "大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,9 +189,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "451581cc2df15808",
+  "active": "cd8feb1e359a7ed4",
   "lastOpenFiles": [
+    "1-LLM Agent/反思机制（Reﬂection mechanisms）.md",
+    "1-LLM Agent/AI Agent.md",
     "1-LLM Agent/0-LLM Agent.md",
+    "1-LLM Agent/AutoGPT.md",
+    "1-LLM Agent/LLM.md",
+    "1-LLM Agent/MCP.md",
+    "1-LLM Agent/Multi-Agent.md",
+    "1-LLM Agent/ReAct.md",
+    "文献库/文献大致介绍/LLM-Based Data Science Agents_ A Survey of Capabilities, Challenges, and Future Directions.md",
     "0-ROOT/数据科学全流程自动化.md"
   ]
 }
