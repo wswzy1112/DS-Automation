@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-LLM Agent/Multi-Step Agent Workflow（Single-Agent Multi-Step Workflow、Multi-Agent Multi-step Workflow）.md",
+                "file": "1-LLM Agent/MCP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multi-Step Agent Workflow（Single-Agent Multi-Step Workflow、Multi-Agent Multi-step Workflow）"
+              "title": "MCP"
             }
           }
         ]
@@ -200,10 +200,10 @@
   },
   "active": "cd97440080b8cb57",
   "lastOpenFiles": [
+    "1-LLM Agent/LLM.md",
+    "1-LLM Agent/Multi-Step Agent Workflow（Single-Agent Multi-Step Workflow、Multi-Agent Multi-step Workflow）.md",
     "Pasted image 20260804182442.png",
     "1-LLM Agent/Multi-Agent.md",
-    "1-LLM Agent/Multi-Step Agent Workflow（Single-Agent Multi-Step Workflow、Multi-Agent Multi-step Workflow）.md",
-    "1-LLM Agent/LLM.md",
     "1-LLM Agent/MCP.md",
     "1-LLM Agent/0-LLM Agent.md",
     "5-挑战/Trustworthiness 可信性.md",
