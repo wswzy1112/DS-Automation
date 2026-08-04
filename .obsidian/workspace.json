@@ -11,10 +11,14 @@
             "id": "cd97440080b8cb57",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "1-LLM Agent/Multi-Step Agent Workflow（Single-Agent Multi-Step Workflow、Multi-Agent Multi-step Workflow）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Multi-Step Agent Workflow（Single-Agent Multi-Step Workflow、Multi-Agent Multi-step Workflow）"
             }
           }
         ]
@@ -196,20 +200,31 @@
   },
   "active": "cd97440080b8cb57",
   "lastOpenFiles": [
-    "4-评价方法/0-评价方法.md",
-    "4-评价方法/Evaluation Metrics.md",
-    "4-评价方法/Benchmark.md",
-    "2-数据科学生命周期/0-数据科学生命周期.md",
-    "2-数据科学生命周期/1数据获取(Data Acquisition).md",
-    "1-LLM Agent/反思机制（Reﬂection mechanisms）.md",
-    "1-LLM Agent/AI Agent.md",
-    "1-LLM Agent/0-LLM Agent.md",
-    "1-LLM Agent/AutoGPT.md",
+    "Pasted image 20260804182442.png",
+    "1-LLM Agent/Multi-Agent.md",
+    "1-LLM Agent/Multi-Step Agent Workflow（Single-Agent Multi-Step Workflow、Multi-Agent Multi-step Workflow）.md",
     "1-LLM Agent/LLM.md",
     "1-LLM Agent/MCP.md",
-    "1-LLM Agent/Multi-Agent.md",
-    "1-LLM Agent/ReAct.md",
-    "文献库/文献大致介绍/LLM-Based Data Science Agents_ A Survey of Capabilities, Challenges, and Future Directions.md",
-    "0-ROOT/数据科学全流程自动化.md"
+    "1-LLM Agent/0-LLM Agent.md",
+    "5-挑战/Trustworthiness 可信性.md",
+    "5-挑战/Safety 安全.md",
+    "5-挑战/Hallucination 幻觉.md",
+    "5-挑战/Alignment 对齐.md",
+    "4-评价方法/Evaluation Metrics.md",
+    "4-评价方法/Benchmark.md",
+    "3-自动化技术/Tool Use.md",
+    "3-自动化技术/RAG.md",
+    "3-自动化技术/AutoML.md",
+    "3-自动化技术/0-自动化技术.md",
+    "2-数据科学生命周期/6模型部署 (Deployment).md",
+    "2-数据科学生命周期/5模型可视化 (Explainability).md",
+    "2-数据科学生命周期/4模型构建 (Model Building).md",
+    "2-数据科学生命周期/3特征工程 (Feature Engineering).md",
+    "2-数据科学生命周期/2探索性数据分析 (EDA).md",
+    "2-数据科学生命周期/1数据获取(Data Acquisition).md",
+    "2-数据科学生命周期/0-数据科学生命周期.md",
+    "1-LLM Agent/AutoGPT.md",
+    "1-LLM Agent/AI Agent.md",
+    "1-LLM Agent/反思机制（Reﬂection mechanisms）.md"
   ]
 }
