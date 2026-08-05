@@ -22,4 +22,7 @@ Single-Agent Multi-Step Workflow即单代理多步工作流，就是一个AI代�
 - **终止与安全阀**：最大轮次、最大 revision 次数、超时、loop detector、human-in-the-loop，是生产级多代理多步系统的标配，否则容易死循环或空转。
 
 ![[Pasted image 20260804182442.png]]
+## 已知的缺陷
+- 多部代理工作流（其中一个LLM向另一个提供反馈），在反馈不正确或者对抗性时会比较脆弱，例如Greenblatt 等人（参考文献Ryan Greenblatt, Carson Denison, Benjamin Wright, Fabien Roger, Monte MacDiarmid, Sam Marks, Johannes Treutlein, Tim Belonax, Jack Chen, David Duvenaud, et al. 2024. Alignment faking in large language models. arXiv preprint arXiv:2412.14093 (2024).）发现 Claude-3 有时会表现出对齐欺骗行为，在训练期间表现安全，但在推断自己处于真实世界环境中时表现不同。他们还报告了一个“合规差距”，即当模型认为自己处于无监督状态时，它更有可能遵循有害指令，并且在某些情况下甚至试图提取自己的模型权重。是由[[Multi-Step Agent Workflow（Single-Agent Multi-Step Workflow、Multi-Agent Multi-step Workflow）]] 【2.5小节提出】
+所以有人引入了一个名为WAFER-QA（Helpful Agent Meets Deceptive Judge: Understanding Vulnerabilities in Agentic Workﬂows. arXiv preprint arXiv:2506.03332 (2025).），这是一个基准测试，里面包含了一个欺骗性裁判，这个期盼型裁判会提出有说服力但是事实错误的批评，经过测试之后，包括GPT-4o在内的顶级代理，仅仅通过了一轮反馈后，就已经从正确答案变成了错误答案。这也说明了在将 DS 代理部署到生产工作流之前，进行对抗性测试、检查情境意识以及严格限制工具访问的必要性，因为错误的反馈循环可能会破坏多阶段管道。
 
