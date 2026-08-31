@@ -212,7 +212,12 @@
   },
   "active": "eac34ba0021b5ab0",
   "lastOpenFiles": [
+    "1-LLM Agent/ReAct.md",
     "1-LLM Agent/Multi-Step Agent Workflow（Single-Agent Multi-Step Workflow、Multi-Agent Multi-step Workflow）.md",
+    "1-LLM Agent/AI Agent.md",
+    "1-LLM Agent/AutoGPT.md",
+    "1-LLM Agent/LLM.md",
+    "1-LLM Agent/Multi-Agent.md",
     "2-数据科学生命周期/2探索性数据分析 (EDA).md",
     "Picture/Pasted image 20260804182442.png",
     "Picture",
@@ -226,9 +231,7 @@
     "5-挑战/Safety 安全.md",
     "5-挑战/Alignment 对齐.md",
     "5-挑战/Hallucination 幻觉.md",
-    "1-LLM Agent/Multi-Agent.md",
     "1-LLM Agent/MCP.md",
-    "1-LLM Agent/LLM.md",
     "1-LLM Agent/0-LLM Agent.md",
     "4-评价方法/Evaluation Metrics.md",
     "4-评价方法/Benchmark.md",
@@ -238,8 +241,6 @@
     "3-自动化技术/0-自动化技术.md",
     "2-数据科学生命周期/6模型部署 (Deployment).md",
     "2-数据科学生命周期/5模型可视化 (Explainability).md",
-    "2-数据科学生命周期/4模型构建 (Model Building).md",
-    "1-LLM Agent/AutoGPT.md",
-    "1-LLM Agent/AI Agent.md"
+    "2-数据科学生命周期/4模型构建 (Model Building).md"
   ]
 }
